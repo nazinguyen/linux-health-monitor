@@ -3,7 +3,7 @@ import requests # Thư viện để gọi API
 import os
 import time
 
-# --- CẤU HÌNH (ĐIỀN THÔNG TIN CỦA BẠN VÀO ĐÂY) ---
+# --- CẤU HÌNH ---
 TELEGRAM_TOKEN = "8484131804:AAFeqg-Cq6a_lO47xWfvvBSnLNMJBhU7lHk"
 CHAT_ID = "8174852342"
 
