@@ -29,7 +29,3 @@ A comprehensive monitoring solution for Linux Servers developed on Ubuntu Server
 chmod +x src/health_check.sh
 ./src/health_check.sh
 
-### 2. Security Monitoring Check Script
-```bash
-sudo pip3 install -r requirements.txt
-sudo python3 src/log_monitor.py
