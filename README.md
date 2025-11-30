@@ -1,4 +1,4 @@
-# 🛡️utomated Server Health Monitoring & Intrusion Detection System
+# Atomated Server Health Monitoring & Intrusion Detection System
 
 ![Linux](https://img.shields.io/badge/Linux-System_Admin-FCC624?style=for-the-badge&logo=linux)
 ![Bash](https://img.shields.io/badge/Bash-Scripting-4EAA25?style=for-the-badge&logo=gnu-bash)
