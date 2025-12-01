@@ -6,7 +6,7 @@ from prometheus_client import start_http_server, Gauge
 # --- CẤU HÌNH ---
 LOG_FILE = "/var/log/auth.log"
 KEYWORD = "Failed password"
-EXPORTER_PORT = 8000  # Cổng để Prometheus chọc vào
+EXPORTER_PORT = 8000  # Cổng để Prometheus chỉ vào
 
 # --- ĐỊNH NGHĨA METRIC ---
 # Gauge: Là loại biểu đồ đo lường con số có thể tăng giảm
