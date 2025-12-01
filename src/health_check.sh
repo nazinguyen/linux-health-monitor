@@ -20,7 +20,7 @@ echo "[2] Checking RAM..."
 # free -m: hiện RAM theo MB
 TOTAL_RAM=$(free -m | grep Mem | awk '{print $2}')
 USED_RAM=$(free -m | grep Mem | awk '{print $3}')
-#Bash chỉ tính toán số nguyên, cẩn thận
+#Bash chỉ tính toán số nguyên
 PERCENT_RAM=$(( 100 * USED_RAM / TOTAL_RAM ))
 
 echo "  - Total: ${TOTAL_RAM}MB"
