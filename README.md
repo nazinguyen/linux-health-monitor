@@ -20,7 +20,6 @@ This project upgrades the traditional monitoring scripts to a full **Observabili
 - **Custom Logic:** Python (prometheus-client library)
 - **OS:** Ubuntu Server
 
-<<<<<<< HEAD
 ##  Deployment
 
 ### 1. Prerequisites
@@ -29,6 +28,7 @@ This project upgrades the traditional monitoring scripts to a full **Observabili
 ### 2. Start the Stack
 ```bash
 docker compose up -d --build
+```
 
 ### 3. Access Dashboards
 Grafana: http://localhost:3000 (Default user/pass: admin/admin)
@@ -39,9 +39,8 @@ Metric Endpoint: http://localhost:8000
 
 ### Screenshots
 Unified Dashboard (System + Security)
+<img width="1920" height="1097" alt="image" src="https://github.com/user-attachments/assets/c399f0c6-87e3-451c-8f5a-7c1b8bd6fdb4" />
 
-### Video demo
-=======
 ## Usage
 ### 1. Health Check Script
 ```bash
@@ -55,6 +54,6 @@ sudo python3 src/log_monitor.py
 ```
 
 ## Video demo
-https://github.com/user-attachments/assets/dc33467c-112b-404a-9728-6d5111bde6e2
->>>>>>> a9286252452afeee80e20761b975bc7d3e7b5a7a
+Link youtube: https://youtu.be/A_skscelId0
+
 
