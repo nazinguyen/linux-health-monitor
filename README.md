@@ -20,6 +20,7 @@ This project upgrades the traditional monitoring scripts to a full **Observabili
 - **Custom Logic:** Python (prometheus-client library)
 - **OS:** Ubuntu Server
 
+<<<<<<< HEAD
 ##  Deployment
 
 ### 1. Prerequisites
@@ -40,4 +41,20 @@ Metric Endpoint: http://localhost:8000
 Unified Dashboard (System + Security)
 
 ### Video demo
+=======
+## Usage
+### 1. Health Check Script
+```bash
+chmod +x src/health_check.sh
+./src/health_check.sh
+```
+### 2. Security Monitoring Check Script
+```bash
+sudo pip3 install -r requirements.txt
+sudo python3 src/log_monitor.py
+```
+
+## Video demo
+https://github.com/user-attachments/assets/dc33467c-112b-404a-9728-6d5111bde6e2
+>>>>>>> a9286252452afeee80e20761b975bc7d3e7b5a7a
 
