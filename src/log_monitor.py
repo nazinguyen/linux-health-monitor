@@ -4,8 +4,8 @@ import os
 import time
 
 # --- CẤU HÌNH ---
-TELEGRAM_TOKEN = "8484131804:AAFeqg-Cq6a_lO47xWfvvBSnLNMJBhU7lHk"
-CHAT_ID = "8174852342"
+TELEGRAM_TOKEN = ""
+CHAT_ID = ""
 
 LOG_FILE = "/var/log/auth.log"
 KEYWORD = "Failed password"
